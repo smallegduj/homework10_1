@@ -6,6 +6,9 @@ class ViewController: UIViewController {
     @IBOutlet var heightLabel: UILabel!
     @IBOutlet var weightLabel: UILabel!
     
+    @IBAction func BackBtn(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     func editHeight(noti:NSNotification) {
         let height = noti.userInfo!["height"] as! String
         heightLabel.text = height
@@ -14,11 +17,6 @@ class ViewController: UIViewController {
     func editWeight(noti:NSNotification) {
         let weight = noti.userInfo!["weight"] as! String
         weightLabel.text = weight
-    }
-    
-    
-    @IBAction func backBtn(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {

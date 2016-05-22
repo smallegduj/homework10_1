@@ -91,7 +91,7 @@
                                 <rect key="frame" x="260" y="354" width="34" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="backBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nIX-s6-bqT"/>
+                                    <action selector="BackBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cyK-2I-kpU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -128,7 +128,7 @@
                                 <rect key="frame" x="28" y="153" width="37" height="30"/>
                                 <state key="normal" title="Done"/>
                                 <connections>
-                                    <action selector="doneBtn:" destination="JXd-XC-eWe" eventType="touchUpInside" id="9F4-JM-eXI"/>
+                                    <action selector="doneBtn:" destination="JXd-XC-eWe" eventType="touchUpInside" id="jD7-na-mMQ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="身高" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vex-Op-0GW">
@@ -153,8 +153,8 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="heightTextField" destination="LVU-wI-YdH" id="l26-ta-hUy"/>
-                        <outlet property="weightTextField" destination="KhZ-9P-Mf8" id="7lF-8N-NpN"/>
+                        <outlet property="heightTextField" destination="LVU-wI-YdH" id="s80-Gk-BSB"/>
+                        <outlet property="weightTextField" destination="KhZ-9P-Mf8" id="SSX-Hn-pOa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mk8-fr-H0q" userLabel="First Responder" sceneMemberID="firstResponder"/>

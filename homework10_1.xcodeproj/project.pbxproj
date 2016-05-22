@@ -14,7 +14,7 @@
 		6E5F3DD41CF1DDDA008890A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5F3DD21CF1DDDA008890A5 /* LaunchScreen.storyboard */; };
 		6E5F3DDF1CF1DDDA008890A5 /* homework10_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5F3DDE1CF1DDDA008890A5 /* homework10_1Tests.swift */; };
 		6E5F3DEA1CF1DDDA008890A5 /* homework10_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5F3DE91CF1DDDA008890A5 /* homework10_1UITests.swift */; };
-		6E5F3DF81CF1DF6C008890A5 /* PennyEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5F3DF71CF1DF6C008890A5 /* PennyEditViewController.swift */; };
+		6E5F3DFC1CF1ED48008890A5 /* PennyEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5F3DFB1CF1ED48008890A5 /* PennyEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		6E5F3DE51CF1DDDA008890A5 /* homework10_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homework10_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5F3DE91CF1DDDA008890A5 /* homework10_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework10_1UITests.swift; sourceTree = "<group>"; };
 		6E5F3DEB1CF1DDDA008890A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E5F3DF71CF1DF6C008890A5 /* PennyEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PennyEditViewController.swift; sourceTree = "<group>"; };
+		6E5F3DFB1CF1ED48008890A5 /* PennyEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PennyEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		6E5F3DBD1CF1DDDA008890A5 = {
 			isa = PBXGroup;
 			children = (
+				6E5F3DFB1CF1ED48008890A5 /* PennyEditViewController.swift */,
 				6E5F3DC81CF1DDDA008890A5 /* homework10_1 */,
 				6E5F3DDD1CF1DDDA008890A5 /* homework10_1Tests */,
 				6E5F3DE81CF1DDDA008890A5 /* homework10_1UITests */,
@@ -102,7 +103,6 @@
 				6E5F3DC91CF1DDDA008890A5 /* AppDelegate.swift */,
 				6E5F3DCB1CF1DDDA008890A5 /* ViewController.swift */,
 				6E5F3DCD1CF1DDDA008890A5 /* Main.storyboard */,
-				6E5F3DF71CF1DF6C008890A5 /* PennyEditViewController.swift */,
 				6E5F3DD01CF1DDDA008890A5 /* Assets.xcassets */,
 				6E5F3DD21CF1DDDA008890A5 /* LaunchScreen.storyboard */,
 				6E5F3DD51CF1DDDA008890A5 /* Info.plist */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E5F3DCC1CF1DDDA008890A5 /* ViewController.swift in Sources */,
-				6E5F3DF81CF1DF6C008890A5 /* PennyEditViewController.swift in Sources */,
+				6E5F3DFC1CF1ED48008890A5 /* PennyEditViewController.swift in Sources */,
 				6E5F3DCA1CF1DDDA008890A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +486,7 @@
 				6E5F3DF01CF1DDDA008890A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E5F3DF11CF1DDDA008890A5 /* Build configuration list for PBXNativeTarget "homework10_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +495,7 @@
 				6E5F3DF31CF1DDDA008890A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E5F3DF41CF1DDDA008890A5 /* Build configuration list for PBXNativeTarget "homework10_1UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +504,7 @@
 				6E5F3DF61CF1DDDA008890A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
